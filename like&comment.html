@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>like and comment simulation</title>
+
+    <script src="like&comment.js"></script>
+</head>
+<body>
+    <div>
+        someone has posted somthing!!!
+    </div>
+
+    <div>
+        <input type="text" id="inputId" style="margin-top: 4px; margin-bottom: 4px;" placeholder="comment here" >
+    </div>
+
+    <div>
+        <!-- logic for Like now -->
+        <button id ="btnid" onclick="likeHere()">like</button>
+
+        <button  onclick="commentHere()">comment</button>
+    </div>
+
+     <!-- will contain all the comment. -->
+    <div id="commentBox">
+
+        <!-- Hard coded sample comment -->
+        <!-- create all three elements dynamically -->
+        <div style="display: flex; justify-content: space-between;">
+            <div>Sample comment</div>
+            <button>DELETE</button>
+        </div>
+    </div>
+
+    
+
+</body>
+</html>
